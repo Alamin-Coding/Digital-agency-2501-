@@ -28,6 +28,11 @@ p {color: var(--gray-700);
     font-weight: 400;
     line-height: 1.6;
 }
+ul ,ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 .heading {
     text-align: center;
     padding-bottom: 40px;
@@ -349,6 +354,193 @@ h1 {
     Our Competencies Section End
 ================================ */
 
+/* ================================
+    About Us Section Start
+================================ */
+.about_container {}
+.about_container .left_side {
+    padding: 64px 48px 48px;
+    background: var(--white-fff);
+    box-shadow: 
+        0 4.4px 12px -1px rgba(19, 16, 34, 0.06),
+        0 2px 6px -1px rgba(19, 16, 34, 0.03)
+    ;
+    border-radius: 8px;
+    margin-right: 48px;
+}
+.about_container .left_side {
+    position: relative;
+}
+.about_container .left_side .icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary);
+    position: absolute;
+    top: 0px;
+    left: 48px;
+    transform: translateY(-20px);
+}
+.about_container .left_side .icon img {}
+
+.about_container .left_side p {}
+.about_container .left_side .stars {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding-top: 24px;
+}
+.about_container .left_side .stars li {}
+.about_container .left_side .stars li img {}
+.about_container .left_side .arrows {
+    display: flex;
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+}
+
+.about_container .right_side {
+    /* display: flex; */
+}
+.about_container .right_side .image {}
+.about_container .right_side .image img {}
+.about_container .right_side .info {}
+.about_container .right_side .info .logo {
+    border-right: 1px solid var(--gray-300);
+    padding: 17px 44px 17px 20px;
+}
+.about_container .right_side .info .logo img {}
+.about_container .right_side .info .text {
+    padding-left: 24px;
+}
+.about_container .right_side .info .text h5 {}
+.about_container .right_side .info .text p {}
+/* ================================
+    About Us Section End
+================================ */
+
+/* ================================
+About Us Section End
+================================ */
+/* ================================
+About Us Section End
+================================ */
+
+#brand {
+    padding-top: 96px;
+    padding-bottom: 112px;
+}
+.brand_container .text h3 {
+    max-width: 410px;
+    font-size: 32px;
+    font-weight: 900;
+    color: var(--gray-900);
+    line-height: 1.3;
+}
+.brand_logos {
+    gap: 56px;
+}
+.brand_logos .logo{
+    width: 140px;
+    gap: 10px;
+    flex-direction: column;
+}
+.brand_logos .logo p{
+    font-size: 14px;
+}
+
+
+/* ================================
+    Blog Us Section Start
+================================ */
+#blog {
+    padding-top: 96px;
+    /* padding-bottom: 362px; */
+    background: var(--gray-300);
+}
+.blog_container .card_item {
+    box-shadow: 0 4.4px 20px -1px rgba(19, 16, 34, 0.05);
+}
+.blog_card_text {
+    background: var(--white-fff);
+    padding: 24px;
+    border-radius: 0 0 8px 8px;
+}
+.blog_card_text .text {}
+.blog_card_text .text .hours {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+.blog_card_text .text .hours span.digital {
+    background: rgba(99, 101, 241, 0.12);
+    border-radius: 4px;
+    color: var(--primary);
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0 8px;
+}
+.blog_card_text .text .hours span {}
+
+.blog_card_text .text p {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--gray-300);
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.6;
+    color: var(--gray-800);
+}
+
+.blog_card_text .info {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-top: 24px;
+}
+.blog_card_text .info .user {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.blog_card_text .info .user  img {
+        width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.blog_card_text .info .user_info {}
+.blog_card_text .info .user_info h6 {}
+.blog_card_text .info .user_info p {}
+
+
+.right_layout {
+    display: grid;
+    grid-template-columns: 306px 1fr;
+}
+.right_layout .image{
+    
+}
+.right_layout .image img {
+width: 100%;
+height: 100%;
+}
+.right_layout:last-child {
+    margin-top: 24px;
+}
+
+.bottom {
+    height: 406px;
+    background: #8B5CF6;
+    transform: translateY(203px);
+}
+/* ================================
+    Blog Us Section End
+================================ */
 
 
 
